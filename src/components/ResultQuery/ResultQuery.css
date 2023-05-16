@@ -1,0 +1,20 @@
+.ResultQuery{
+    margin-top: 1em;
+}
+
+.ResultQuery ul{
+    margin-top: .5em;
+    list-style: none;
+}
+.ResultQuery li{
+    margin-bottom: .25em;
+    padding: .5em;
+    border: 1px solid #42e39e;
+    border-radius: .5em;
+}
+.ResultQuery li.error{
+    border: 1px solid #c01010;
+}
+.ResultQuery li b.error{
+    color: #c01010;
+}

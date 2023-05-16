@@ -1,0 +1,23 @@
+.NavbarTop{
+    margin: .5em;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    background: #3f434f;
+    border-radius: 10px;
+}
+
+.NavbarTop a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 1em;
+    transition: .15s;
+}
+.NavbarTop a:hover{
+    opacity: .5;
+}
+.NavbarTop a.active{
+    color: #42e39e;
+    opacity: .5;
+}
